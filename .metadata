@@ -1,0 +1,27 @@
+# This file tracks properties of this Flutter project.
+# Used by Flutter tool to assess capabilities and perform upgrades etc.
+#
+# This file should be version controlled and should not be manually edited.
+
+version:
+  revision: "20f8274939"
+  channel: "stable"
+
+project_type: app
+
+# Tracks metadata for the flutter migrate command
+migration:
+  platforms:
+    - platform: root
+      create_revision: 20f8274939
+      base_revision: 20f8274939
+    - platform: android
+      create_revision: 20f8274939
+      base_revision: 20f8274939
+    - platform: ios
+      create_revision: 20f8274939
+      base_revision: 20f8274939
+
+  unmanaged_files:
+    - 'lib/main.dart'
+    - 'ios/Runner.xcodeproj/project.pbxproj'
